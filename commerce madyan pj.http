@@ -1,0 +1,11 @@
+@commerce_madyan_pj_HostAddress = http://localhost:5142
+
+GET {{commerce_madyan_pj_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{commerce_madyan_pj_HostAddress}}/todos/1
+Accept: application/json
+
+###
